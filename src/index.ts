@@ -55,8 +55,6 @@ const post = async ({ next }: { next: string }) => {
   }
 };
 
-post({ next: "" });
-
 cron.schedule(
   "0 */12 * * *",
   () => {
