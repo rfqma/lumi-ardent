@@ -1,0 +1,9 @@
+const MAX_TOKENS = 4096;
+const MAX_PROMPT_LENGTH = 1000;
+
+const CONSTANTS = {
+  MAX_TOKENS,
+  MAX_PROMPT_LENGTH,
+};
+
+export default CONSTANTS;
