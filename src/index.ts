@@ -3,7 +3,7 @@ import "dotenv/config";
 import Instagram from "./instagram";
 import OPENAI from "./openai";
 import STABILITYAI from "./stabilityai";
-import terminalImage from "terminal-image";
+// import terminalImage from "terminal-image";
 import fs from "fs";
 import sharp from "sharp";
 import moment from "moment-timezone";
@@ -20,10 +20,10 @@ const post = async ({ next }: { next: string }) => {
 
       // const ImageBuffer = Buffer.from(await (await fetch(image)).arrayBuffer());
 
-      console.log(
-        await terminalImage.buffer(image),
-        finalCaption?.toLowerCase()
-      );
+      // console.log(
+      //   await terminalImage.buffer(image),
+      //   finalCaption?.toLowerCase()
+      // );
 
       const filename = Date.now();
       // await fs.promises.writeFile(`src/images/${filename}.png`, ImageBuffer);
